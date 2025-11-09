@@ -1,5 +1,5 @@
-REM 파일 복사
+REM -- file copy from obsidian --
 robocopy ..\obsidian-bingfam\ content\ /xd .obsidian .git template private /mir
 
-REM github pages에 파일 올리기
+REM -- upload to github pages --
 npx quartz sync
