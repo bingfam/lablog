@@ -1,4 +1,5 @@
-REM íŒŒì¼ ë³µì‚¬
+REM ÆÄÀÏ º¹»ç
 robocopy ..\obsidian-bingfam\ content\ /xd .obsidian .git template private /mir
 
+REM github pages¿¡ ÆÄÀÏ ¿Ã¸®±â
 npx quartz sync
