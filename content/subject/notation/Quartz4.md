@@ -197,3 +197,15 @@ analytics: {
       host: "stuousk.github.io/lablog"
     },
 ```
+
+## 포맷하거나 새 pc에서 기존 quartz 4 사용하기
+
+1. 이 경우라면 lablog clone하기
+2. 다음과 같이 실행
+```   
+cd lablog
+npm i
+npx quartz create
+``` 
+
+npx quartz create 하면 뭔가 물어보는데 그냥 다 디폴트로 함.(empty, shorten)
